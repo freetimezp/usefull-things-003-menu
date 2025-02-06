@@ -153,11 +153,11 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
-    transition: 0.5s all cubic-bezier(0.165, 0.84, 0.4, 1);
+    transition: 0.5s all cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .menu-item.menu-opened:hover .menu-img {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 
